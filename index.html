@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Galeria fotos</title>
 </head>
 
 <body>
     <div class="container">
+       
         <div class="content">
             <h1>Galeria de fotos</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio cumque maiores. Natus, est
@@ -20,23 +22,35 @@
                 asperiores.</p>
             <button>Saber más</button>
         </div>
-            <div class="gallery">
-                <div class="preview">
-                    <img id="main-image" src="" alt="">
-                </div>
-                <div class="thumbnails">
-                    <div class="thumbnail">
-                        <img src="image/img1.jpg" alt="">                        
-                    </div>
-                    <div class="thumbnail">
-                        <img src="image/img2.jpg" alt="">                        
-                    </div>
-                    <div class="thumbnail">
-                        <img src="image/img3.jfif" alt="">                        
-                    </div>
 
+        <div class="gallery">
+            <div class="preview">
+                <img id="main-image" src="" alt="">
+            </div>
+            <div class="thumbnails" id="slider">
+                <div class="thumbnail">
+                    <img src="image/img1.jpg" alt="">
                 </div>
-            </div> 
+                <div class="thumbnail">
+                    <img src="image/img2.jpg" alt="">
+                </div>
+                <div class="thumbnail">
+                    <img src="image/img3.jfif" alt="">
+                </div>                
+                <div class="thumbnail">
+                    <img src="image/img3.jfif" alt="">
+                </div>                
+                <div class="thumbnail">
+                    <img src="image/img3.jfif" alt="">
+                </div>                
+                <div class="thumbnail">
+                    <img src="image/img3.jfif" alt="">
+                </div>                
+
+            </div>
+            <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+            <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+        </div>
     </div>
 
     <script src="script.js"></script>
